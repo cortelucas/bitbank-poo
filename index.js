@@ -2,16 +2,12 @@ import {Cliente} from './Cliente.js';
 import {ContaCorrente} from './ContaCorrente.js';
 
 const cliente1 = new Cliente();
-
-cliente1.nome = 'Lucas';
-cliente1.cpf = 11122233344;
-cliente1.rg = 112223334;
+cliente1.nome = "Lucas";
+cliente1.cpf = 11122233309;
 
 const cliente2 = new Cliente();
-
-cliente2.nome = 'Andressa';
-cliente2.cpf = 98765432100;
-cliente2.rg = 33222110;
+cliente2.nome = "Andressa";
+cliente2.cpf = 88822233309;
 
 const contaCliente1 = new ContaCorrente();
 contaCliente1.agencia = 1001;
