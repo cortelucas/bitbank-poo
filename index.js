@@ -4,15 +4,20 @@ import {ContaCorrente} from './ContaCorrente.js';
 const cliente1 = new Cliente();
 
 cliente1.nome = 'Lucas';
-cliente1.cpf = '12345678900';
-cliente1.rg = '11222330';
+cliente1.cpf = 11122233344;
+cliente1.rg = 112223334;
 
 const contaCliente1 = new ContaCorrente();
 contaCliente1.agencia = 1001;
-contaCliente1.saldo = 0;
+contaCliente1.cliente = cliente1;
+
+contaCliente1.depositar(100);
+contaCliente1.sacar(150);
+
+const valorSacado = contaCliente1.sacar(50);
 
 console.log(
-    cliente1, +'\n'+
+    
     contaCliente1
 );
 
