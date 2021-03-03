@@ -13,6 +13,12 @@ class ContaCorrente {
             this.sacar -= valor;
         }
     }
+
+    depositar(valor) {
+        if(valor > 0) {
+            this.saldo += valor;
+        }
+    }
 }
 
 const cliente1 = new Cliente();
