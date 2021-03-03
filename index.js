@@ -12,5 +12,5 @@ const contaCliente2 = new ContaCorrente(1001, cliente2);
 let valor = 200;
 contaCliente1.transferir(valor, contaCliente2);
 
-console.log(`Valor: R$ ${valor}`);
+console.log(contaCliente1);
 console.log(contaCliente2);
